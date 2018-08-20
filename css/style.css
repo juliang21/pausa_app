@@ -1,0 +1,317 @@
+body {
+  font-family: 'century gothic', sans-serif;
+}
+
+h1 {
+  font-family: "Helvetica";
+  font-size: 50px;
+  font-weight: bold;
+  width: 530px;
+  line-height: 70px;
+  padding-top: 77px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+  width: 530px;
+  line-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+button {
+  background-color: #F85C78;
+  font-family: "open Sans";
+  font-size: 16px;
+  color: #fff;
+  box-shadow: 0px 4px 24px rgba(0,0,0,.3);
+  border-radius: 40px;
+  padding: 20px 75px;
+  font-weight: 400;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+.container {
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 50%;
+  margin-left: 55px;
+  margin-top: 10px;
+  float: left;
+  background-color: #ffffff;
+}
+
+.logo img {
+  max-height: 40px;
+  margin-right: 5px;
+  position: relative;
+  top: 10px;
+}
+
+.pausa_name {
+  font-size: 24px;
+  color: #32C1D7;
+}
+
+.pausa_by-anima {
+  font-size: 18px;
+  color: #A1A7B3;
+}
+
+.menu {
+  width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.menu_item {
+float: left;
+font-size: 16px;
+margin: 30px;
+}
+
+.menu button {
+background-color: #EC407A;
+float: left;
+font-size: 16px;
+color: #ffffff;
+margin: 15px;
+box-shadow: none;
+border: 0px;
+border-radius: 40px;
+padding: 13px 35px;
+}
+
+.button {
+  background-color: #EC407A;
+  font-family: "open Sans";
+  font-size: 16px;
+  color: #fff;
+  box-shadow: 0px 4px 24px rgba(0,0,0,.3);
+  border-radius: 40px;
+  padding: 20px 75px;
+  font-weight: 400;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.menu a:hover {
+  background-color: #505763;
+}
+
+.menu a {
+  background-color: #EC407A;
+  text-decoration: none;
+  font-family: "open Sans";
+  font-size: 16px;
+  color: #fff;
+  box-shadow: 0px 4px 24px rgba(0,0,0,.3);
+  border-radius: 40px;
+  padding: 15px 35px;
+  font-weight: 400;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 15px;
+  float: left;
+}
+
+.section_atf {
+  width: 100%;
+  height: 500px;
+  background-color: #32C1D7;
+  padding: 55px;
+}
+
+.section_atf h1 {
+  color: #ffffff;
+}
+
+.section_atf h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.section_atf button {
+  background-color: #fff;
+  color: #000;
+}
+
+.section_atf button:hover {
+  background-color: #F85C78;
+  color: #fff;
+}
+
+
+.atf {
+  max-height: 565px;
+}
+
+.meditate {
+  max-height: 239px;
+}
+
+.timer {
+  max-height: 248px;
+}
+
+.half_left {
+  width: 40%;
+  float: left;
+  display: inline-block;
+}
+
+.half_right {
+  padding-left: 5%;
+  float: left;
+  width: 40%;
+  display: block;
+}
+
+.half_right img {
+  padding-left: 30%;
+}
+
+.butterfly {
+  max-height: 107px;
+}
+
+.section_twenty_one_days {
+    width: 100%;
+    height: 550px;
+    background-color: #fff;
+    padding: 55px;
+}
+
+.section_timer {
+  width: 100%;
+  height: 550px;
+  background-color: #fff;
+  padding: 55px;
+}
+
+.section_twenty_one_days h2 {
+  color: #505763;
+}
+
+.section_timer h2 {
+  color: #505763;
+}
+
+.section_twenty_one_days img {
+  max-height: 600px;
+}
+
+.section_timer img {
+  padding-top: 20%;
+}
+
+.section_twenty_one_days button {
+  background-color: #F85C78;
+  color: #fff;
+}
+
+.section_twenty_one_days button:hover {
+  background-color: #32C1D7;
+}
+
+
+.cta-white a {
+  background-color: #ffffff;
+  text-decoration: none;
+  font-family: "open Sans";
+  font-size: 16px;
+  color: #000;
+  box-shadow: 0px 4px 24px rgba(0,0,0,.3);
+  border-radius: 40px;
+  padding: 20px 75px;
+  font-weight: 400;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  background-image: url(img/icon_download.png) no-repeat 0 4px;
+}
+
+.cta-white a:hover {
+  background-color: #F85C78;
+  color: #ffffff;
+}
+
+.cta-blue a {
+  background-color: #394D84;
+  text-decoration: none;
+  font-family: "open Sans";
+  font-size: 16px;
+  color: #fff;
+  box-shadow: 0px 4px 24px rgba(0,0,0,.3);
+  border-radius: 40px;
+  padding: 20px 75px;
+  font-weight: 400;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.cta-blue a:hover {
+  background-color: #32C1D7;
+}
+
+
+.cta-pink a {
+  background-color: #F85C78;
+  text-decoration: none;
+  font-family: "open Sans";
+  font-size: 16px;
+  color: #fff;
+  box-shadow: 0px 4px 24px rgba(0,0,0,.3);
+  border-radius: 40px;
+  padding: 20px 75px;
+  font-weight: 400;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.cta-pink a:hover {
+  background-color: #32C1D7;
+}
+
+
+.section_meditate {
+  width: 100%;
+  height: 450px;
+  background-color: #394D84;
+  padding: 55px;
+}
+
+.section_meditate h1 {
+  color: #ffffff;
+}
+
+.section_meditate h2 {
+  color: #ffffff;
+}
+
+.section_meditate button:hover {
+  background-color: #32C1D7;
+}
+
+.section_meditate img {
+  padding: 20%;
+  max-height: 248px;
+}
+
+#section_download {
+    width: 100%;
+    height: 650px;
+    background-color: #fff;
+    padding: 55px;
+}
+
+#section_download h2 {
+  color: #505763;
+}
